@@ -9,23 +9,32 @@ Date: 17 Oct 2016
 Multi-tasking more than one task are executed at the same time. In this technique the multiple tasks, also known as processes, share common
 processing resources such as a CPU. In the case of a computer with single CPU, only one job can be processed at a time. Multitasking
 solves the problem by scheduling and deciding which task should be the running task and when a waiting task should get turn.
+### Example
+Using excel or mediaplayer on the computer, accessing web browsers simultaneously.
 
 ##Multi-Programming:
 Multi-programming is the technique of running several programs at a time using timesharing. It allows a computer to do several things at
 the same time. Multiprogramming creates logical parallelism. The concept of multiprogramming is that the operating system keeps several
 jobs in memory simultaneously.
+### Example
+Editing in word dcument, running a program and anti virus scanning your PC, all these can happen at a time.
 
 ##Multi-Processing:
 Multi-processing refers to executing multiple processes (programs) at the same time. Multiprocessing operating systems enable several programs to run concurrently.
+### Example
+Multiple core processors like dual core processor.
 
 ##Multi-Threaded:
 Multi-threading is an execution model that allows a single process to have multiple code segments run concurrently within the “context” of that process.
+### Example
+database 
 
 
 ##REVIEW QUESTIONS AND ANSWERS FOR CHAPTER 3
 
 ##1.What is a instruction trace?
-        
+An instruction trace for a program is the sequence of instructions that execute for
+that process.        
 
 ##2.What common events lead to the creation of a process?
    There are four principal events led to creation of process:
@@ -44,7 +53,7 @@ Multi-threading is an execution model that allows a single process to have multi
     of temporarily suspended process and the execution continues with the newly arrived process.
     
 ##5.Why does figure 2.9 have two blocked states?
-
+To know whether a process is waiting on an event and to obtain more memory so that it can be obtained by using secondary memory .
 
 ##6.List four characteristics of a suspended process?
     *The process is not immediately available for execution.
@@ -78,6 +87,7 @@ Multi-threading is an execution model that allows a single process to have multi
        3.Handling is synchronous, the user code is suspended and continues afterwards.
        
 ##10.Give three examples of an interrupt?
+ Clock interrupt, I/O interrupt, memory fault are three examples.
 
 ##11.What is the difference between a mode switch and a process switch?
      ###process switch:
